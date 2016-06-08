@@ -1,2 +1,2 @@
 [localhost]
-localhost ansible_port=22 ansible_host=127.0.0.1
+localhost ansible_port=22 ansible_host=127.0.0.1 ansible_ssh_private_key_file=${HOME}/.ssh/ansible_ssh_key
