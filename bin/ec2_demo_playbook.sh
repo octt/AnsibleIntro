@@ -11,3 +11,4 @@ if [ -z AWS_ACCESS_KEY_ID ]
 then
   abort "AWS_ACCESS_KEY_ID not defined"
 fi
+
