@@ -5,5 +5,7 @@ export _SSH_DIR=${HOME}/.ssh/
 
 chmod 0700 ${_SSH_DIR}
 
-ssh-keygen -B -b 4096 -C "Ansible Intro" -f ${_SSH_DIR}ansible_ssh_key} \
+ls -l ${_SSH_DIR}
+
+ssh-keygen -B -b 4096 -C "Ansible Intro" -f ${_SSH_DIR}ansible_ssh_key \
            -N AnsibleIntro
