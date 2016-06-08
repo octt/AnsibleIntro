@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -x
 
 export _SSH_DIR=${HOME}/.ssh/
-[ ! -d ${_SSH_DIR} ] mkdir -p ${_SSH_DIR}
+[ ! -d ${_SSH_DIR} ] && mkdir -p ${_SSH_DIR}
 
 chmod 0700 ${_SSH_DIR}
 
