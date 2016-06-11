@@ -2,6 +2,7 @@
 
 sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-6.noarch.rpm
 sudo yum install -y ansible
+cd /tmp
 git clone git://github.com/ansible/ansible.git --recursive
 cd ./ansible
 make rpm
